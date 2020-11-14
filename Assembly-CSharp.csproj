@@ -71,6 +71,7 @@
     <Compile Include="Assets\MMD4Mecanim\Scripts\MMD4MecanimSpeechHelper.cs" />
     <Compile Include="Assets\MMD4Mecanim\Scripts\MMD4MecanimAnimMorphHelper.cs" />
     <Compile Include="Assets\Script\mave3d.cs" />
+    <Compile Include="Assets\Script\euler.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Transparent.shader" />
@@ -95,8 +96,10 @@
      <None Include="Assets\Resource\mmd地形\斣嶱偲柧偐傝.xml" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Edge.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Edge.shader" />
+     <None Include="Assets\Shader\initVelocity.shader" />
      <None Include="Assets\Resource\SUPER TERRAIN COLLECTION\SUPER TERRAIN ASSETS\Demo Scenes\README.txt" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Transparent.shader" />
+     <None Include="Assets\Shader\divergence.shader" />
      <None Include="Assets\MMD4Mecanim\Plugins\MMD4MecanimBulletPhysics\WSA\X64\MMD4MecanimBulletPhysics.dll" />
      <None Include="Assets\Resource\琪亚娜月下猫\使用规则.txt" />
      <None Include="Assets\MMD4Mecanim\Plugins\MMD4MecanimBulletPhysics 2.75\WSA\X86\MMD4MecanimBulletPhysics.dll" />
@@ -106,14 +109,17 @@
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Edge.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-Edge.shader" />
      <None Include="Assets\MMD4Mecanim\Plugins\MMD4MecanimBulletPhysics 2.75\WSA\ARM\MMD4MecanimBulletPhysics.dll" />
+     <None Include="Assets\Shader\initDye.shader" />
      <None Include="Assets\Resource\SUPER TERRAIN COLLECTION\DOCS\TROUBLESHOOTING.txt" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Lighting.cginc" />
      <None Include="Assets\Resource\小空\使用规则.txt" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-ForwardAdd.cginc" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Pass4.shader" />
+     <None Include="Assets\Shader\splat.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Transparent-Edge.shader" />
      <None Include="Assets\Shader\move2D.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Transparent-Edge.shader" />
+     <None Include="Assets\Shader\display.shader" />
      <None Include="Assets\MMD4Mecanim\Plugins\MMD4MecanimBulletPhysics 2.75\x86_64\MMD4MecanimBulletPhysics.dll" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ShadowCollector.cginc" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Edge.shader" />
@@ -136,7 +142,9 @@
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-Transparent-Edge.shader" />
      <None Include="Assets\Resource\小空\小空3.0.MMD4Mecanim.xml" />
+     <None Include="Assets\Shader\advection.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces.shader" />
+     <None Include="Assets\Shader\substruct.shader" />
      <None Include="Assets\Resource\SUPER TERRAIN COLLECTION\SUPER TERRAIN ASSETS\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Resource\琪亚娜月下猫\草履虫高光配布版2.0.MMD4Mecanim.xml" />
      <None Include="Assets\Resource\SUPER TERRAIN COLLECTION\SUPER TERRAIN ASSETS\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
@@ -144,6 +152,7 @@
      <None Include="Assets\Resource\mmd地形\傝偳傒.txt" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-ForwardBase.cginc" />
      <None Include="Assets\MMD4Mecanim\Plugins\MMD4MecanimBulletPhysics 2.75\WSA\X64\MMD4MecanimBulletPhysics.dll" />
+     <None Include="Assets\Shader\pressure.shader" />
      <None Include="Assets\MMD4Mecanim\Plugins\MMD4MecanimBulletPhysics\WSA\ARM\MMD4MecanimBulletPhysics.dll" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Tess-BothFaces.shader" />
      <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Transparent.shader" />
